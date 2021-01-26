@@ -1,4 +1,4 @@
 # SM-vuel
-The platform that runs on Smart Mirror for studying HCI
+The platform that runs for Smart Mirror
 
 Now working on Dev branch
