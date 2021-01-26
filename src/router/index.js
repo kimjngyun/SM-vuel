@@ -3,6 +3,8 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import Camera from '../views/Camera.vue'
 import SpeechTest from '../views/SpeechTest.vue'
+import VideoSample from '../views/VideoSample.vue'
+import Mirror from '../views/Mirror.vue'
 Vue.use(VueRouter)
 
 const routes = [
@@ -20,6 +22,16 @@ const routes = [
     path: '/speechtest',
     name: 'SpeechTest',
     component: SpeechTest
+  },
+  {
+    path: '/video',
+    name: 'VideoSample',
+    component: VideoSample
+  },
+  {
+    path: '/mirror',
+    name: 'Mirror',
+    component: Mirror
   }
 ]
 

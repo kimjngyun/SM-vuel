@@ -4,7 +4,9 @@ import './registerServiceWorker'
 import router from './router'
 import store from './store'
 import vuetify from './plugins/vuetify'
+import VueYoutbe from 'vue-youtube'
 
+Vue.use(VueYoutbe)
 Vue.config.productionTip = false
 
 new Vue({

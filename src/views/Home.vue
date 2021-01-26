@@ -12,6 +12,15 @@
           width="245px"
           height="48px"
           dark
+          @click="video"
+          >
+          Video Sample
+        </v-btn>
+        <v-btn
+          color="#222222"
+          width="245px"
+          height="48px"
+          dark
           @click="camera"
           >
           Camera
@@ -37,6 +46,7 @@ export default {
   components: {
   },
   methods: {
+    video () { this.$router.push('/video') },
     camera () { this.$router.push('/camera') },
     annyang () { this.$router.push('/speechtest') }
   }
