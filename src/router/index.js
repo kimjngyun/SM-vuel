@@ -5,6 +5,7 @@ import Camera from '../views/Camera.vue'
 import SpeechTest from '../views/SpeechTest.vue'
 import VideoSample from '../views/VideoSample.vue'
 import Mirror from '../views/Mirror.vue'
+import Emotion from '../views/Emotion.vue'
 Vue.use(VueRouter)
 
 const routes = [
@@ -32,6 +33,11 @@ const routes = [
     path: '/mirror',
     name: 'Mirror',
     component: Mirror
+  },
+  {
+    path: '/emotion',
+    name: 'Emotion',
+    component: Emotion
   }
 ]
 

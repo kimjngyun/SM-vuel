@@ -12,6 +12,9 @@ module.exports = {
   },
   rules: {
     'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
-    'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off'
+    'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
+    'eslint handle-callback-err': 'off',
+    'prefer-promise-reject-errors': 'off',
+    'no-undef': 'off'
   }
 }

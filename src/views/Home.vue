@@ -21,9 +21,9 @@
           width="245px"
           height="48px"
           dark
-          @click="camera"
+          @click="emotion"
           >
-          Camera
+          Emotion
         </v-btn>
         <v-btn
           color="#222222"
@@ -48,7 +48,8 @@ export default {
   methods: {
     video () { this.$router.push('/video') },
     camera () { this.$router.push('/camera') },
-    annyang () { this.$router.push('/speechtest') }
+    annyang () { this.$router.push('/speechtest') },
+    emotion () { this.$router.push('/emotion') }
   }
 }
 </script>
